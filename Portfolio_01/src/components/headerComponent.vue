@@ -18,14 +18,14 @@
 </template>
 
 <style scoped>
-    header{
+    header {
         display: flex;
         justify-content: space-between;
-        margin: 48px 0 48px 0;
+        padding: 48px 0 48px 0;
 
     }
 
-    h1{
+    h1 {
         width: 218px;
         height: 30px;
         padding: 5px 2px 5px 2px;
@@ -34,7 +34,7 @@
         font-size: 1.62em;
     }
 
-    ul{
+    ul {
         width: 669px;
         height: 31px;
         display: flex;
