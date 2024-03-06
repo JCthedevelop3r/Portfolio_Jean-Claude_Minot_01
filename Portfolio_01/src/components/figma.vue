@@ -11,7 +11,7 @@
 
 <style scoped>
     section {
-        width: 710px;
+        width: 1680px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
