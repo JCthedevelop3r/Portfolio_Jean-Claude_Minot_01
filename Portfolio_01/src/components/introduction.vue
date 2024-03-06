@@ -11,9 +11,11 @@
 
 <style scoped>
     section {
+        width: 1680px;
         display: flex;
         justify-content: space-between;
         padding: 144px 0 144px 0;
+        border-bottom: solid 1px black;
     }
 
     p {

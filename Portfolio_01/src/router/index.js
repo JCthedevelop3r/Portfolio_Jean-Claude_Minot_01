@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import homepage from "../views/homepage.vue"
-import figma from "../views/figma.vue"
+import figmaPage from "../views/figmaPage.vue"
 import error404 from "../views/error404.vue"
 
 const router = createRouter({
@@ -14,9 +14,9 @@ const router = createRouter({
     },
 
     {
-      path: "/figma",
-      name: "figma",
-      component: figma,
+      path: "/figmapage",
+      name: "figmapage",
+      component: figmaPage,
     },
 
     {
