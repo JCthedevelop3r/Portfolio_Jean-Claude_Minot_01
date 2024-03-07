@@ -31,5 +31,10 @@
     p {
         font-family: "Assistant", sans-serif;
         font-weight: 300;
+        margin: 0;
+    }
+
+    small {
+        align-self: end;
     }
 </style>

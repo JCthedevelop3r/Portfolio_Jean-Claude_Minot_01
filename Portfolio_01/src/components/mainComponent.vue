@@ -4,6 +4,7 @@
     import commentArea from "./commentArea.vue";
     import figma from "./figma.vue";
     import contact from "./contact.vue";
+    import modal from "./modal.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@
         <commentArea></commentArea> 
         <figma></figma>
         <contact></contact>
+        <modal></modal>
     </main>
 </template>
 
