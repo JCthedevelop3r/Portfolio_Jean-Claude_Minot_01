@@ -1,4 +1,17 @@
 <script setup>
+    import modal from "./modal.vue";
+
+    const titre = "Créer un CV d'après une maquette";
+    const sousTitre1 = "Objectifs du projet : ";
+    const objectifs = " Créer mon CV en suivant une maquette et en intégrant des effets graphiques, des liens, etc.";
+    const sousTitre2 = "Date de création : ";
+    const date = "16 novembre 2023.";
+    const sousTitre3 = "Technologies utilisées : ";
+    const technologies = " HTML 5 - CSS 3 - Github pour le versioning."
+    const sousTitre4 = "Voir le projet : "
+    const voirProjet = "Créer un CV d'après une maquette."
+
+
 
 </script>
 
@@ -6,6 +19,7 @@
     <section>
         <h2>Créer un CV d'après une maquette</h2>
         <img src="../assets/Images/Screen_Devoir_CV.png" alt="Curriculum vitae d'un développeur web junior.">
+        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet></modal>
     </section>
 </template>
 
@@ -23,7 +37,7 @@
     h2 {
         width: 684px;
         height: 65px;
-        font-family: "Besley", serif;
+        font-family: 'Besley', serif;
         font-weight: 600;
         font-size: 2.36em;
         margin: 0;

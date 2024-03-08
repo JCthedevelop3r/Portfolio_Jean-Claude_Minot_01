@@ -1,25 +1,37 @@
 <script setup>
+    const props = defineProps ({
+        titre: String,
+        sousTitre1: String,
+        objectifs: String,
+        sousTitre2: String,
+        date: String,
+        sousTitre3: String,
+        technologies: String,
+        sousTitre4: String,
+        voirProjet: String,
 
+    })
 </script>
 
 <template>
-    <div class="modal-container" >
-        <div class="overlay" @click="closeModal">
+    <div class="modal-container">
+        <div class="overlay">
             <div class="modal">
                 <button @click="closeModal">X</button>
-                <h2>Créer un CV d'après une maquette</h2>
+                <h2>{{ titre }}</h2>
                 <ul>
-                    <li><h3>Objectif du projet :</h3> Créer mon CV en suivant une maquette et en intégrant des effets graphiques, des liens, etc.</li>
-                    <li><h3>Date de création :</h3> <time datetime="2023-11-16">16 novembre 2023</time>.</li>
-                    <li><h3>Technologies utilisées :</h3> HTML 5 - CSS 3 - Github pour le versioning.</li>
-                    <li><h3>Voir le projet :</h3> <a href="https://github.com/JCthedevelop3r/Devoir_CV" target="_blank">Créer un CV d'après une maquette</a></li>
+                     <li><h3>{{ sousTitre1 }}</h3>{{ objectifs }}</li>
+                     <li><h3>{{ sousTitre2 }}</h3> <time datetime="2023-11-16">{{ date }}</time>.</li>
+                     <li><h3>{{ sousTitre3 }}</h3>{{ technologies }}</li>
+                     <li><h3>{{ sousTitre4 }}</h3> <a href="https://github.com/JCthedevelop3r/Devoir_CV" target="_blank">{{ voirProjet }}</a></li>
                 </ul>
+
             </div>
         </div>
     </div>
 </template>
 
-<style scoped>
+<style>
     .modal-container {
         width: 100vw;
         height: 100vh;
@@ -44,7 +56,7 @@
         height: 250px;
         position: absolute;
         top: 25%;
-       left: 39%;
+        left: 34%;
         background: #FFBD80;
         border-style: double;
         color: black;
