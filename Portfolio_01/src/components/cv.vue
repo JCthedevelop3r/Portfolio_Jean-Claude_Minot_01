@@ -1,5 +1,6 @@
 <script setup>
     import modal from "./modal.vue";
+    import { ref } from "vue";
 
     const titre = "Créer un CV d'après une maquette";
     const sousTitre1 = "Objectifs du projet : ";
@@ -11,15 +12,24 @@
     const sousTitre4 = "Voir le projet : "
     const voirProjet = "Créer un CV d'après une maquette."
 
+    const isModalOpen = ref(false);
 
+    const openModal = () => {
+        isModalOpen.value = true;
+    };
 
+    const closeModal = () => {
+        isModalOpen.value = false;
+    };
 </script>
 
 <template>
     <section>
         <h2>Créer un CV d'après une maquette</h2>
-        <img src="../assets/Images/Screen_Devoir_CV.png" alt="Curriculum vitae d'un développeur web junior.">
-        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet></modal>
+        <img src="../assets/Images/Screen_Devoir_CV.png" alt="Curriculum vitae d'un développeur web junior." @click="openModal">
+        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet v-if="isModalOpen">   
+            <slot><button @click="closeModal">X</button></slot>
+        </modal>
     </section>
 </template>
 

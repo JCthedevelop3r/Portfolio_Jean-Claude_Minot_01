@@ -11,13 +11,14 @@
         voirProjet: String,
 
     })
+    
 </script>
 
 <template>
     <div class="modal-container">
         <div class="overlay">
             <div class="modal">
-                <button @click="closeModal">X</button>
+                <slot></slot>
                 <h2>{{ titre }}</h2>
                 <ul>
                      <li><h3>{{ sousTitre1 }}</h3>{{ objectifs }}</li>
