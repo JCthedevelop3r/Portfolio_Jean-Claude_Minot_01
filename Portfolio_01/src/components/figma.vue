@@ -1,11 +1,35 @@
 <script setup>
+    import modal from "./modal.vue";
+    import { ref } from "vue";
 
+    const titre = "Maquetter un site avec Figma";
+    const sousTitre1 = "Objectifs du projet : ";
+    const objectifs = " Créer les wireframes des différentes pages d'un site fictif et créer le prototype de sa page d'accueil.";
+    const sousTitre2 = "Date de création : ";
+    const date = "2 mars 2024";
+    const sousTitre3 = "Technologies utilisées : ";
+    const technologies = " Figma."
+    const sousTitre4 = "Voir le projet : "
+    const voirProjet = "Maquetter un site avec Figma."
+
+    const isModalOpen = ref(false);
+
+    const openModal = () => {
+        isModalOpen.value = true;
+    };
+
+    const closeModal = () => {
+        isModalOpen.value = false;
+    };
 </script>
 
 <template>
     <section>
         <h2>Maquetter un site avec Figma</h2>
-        <figure><img src="../assets/Images/Screen_Prototype_Probeats.png" alt="Maquette d'un site web fictif."></figure>
+        <figure><img src="../assets/Images/Screen_Prototype_Probeats.png" alt="Maquette d'un site web fictif." @click="openModal"></figure>
+        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet v-if="isModalOpen">   
+            <slot><button @click="closeModal">X</button></slot>
+        </modal>
     </section>
 </template>
 
