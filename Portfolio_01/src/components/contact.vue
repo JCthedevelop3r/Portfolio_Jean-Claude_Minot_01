@@ -3,49 +3,31 @@
 </script>
 
 <template>
-    <section>
+    <section class="section-parent">
         <h2>Contact</h2>
-        <form action="#" method="post">
-
-                <div>
-                    <label for="lastname" id="label-lastname">Nom : </label>
-                    <input type="text" name="lastname" id="input-lastname">
-                </div>
-
-                <div>
-                    <label for="firstname" id="label-firstname">Prénom : </label>
-                    <input type="text" name="firsname" id="input-firstname">
-                </div>
-
-                <div>
-                    <label for="e-mail address" id="label-e-mail">Adresse e-mail : </label>
-                    <input type="text" name="e-mail address" id="input-e-mail">
-                </div>
-
-                <div>
-                    <label for="object" id="label-object">Objet :</label>
-                    <input type="text" name="object" id="input-object">
-                </div>
-
-                <textarea placeholder="Votre texte"></textarea>
-
-                <input type="submit" name="submit-button" id="submit-button">
-    
-            </form>
-    </section>    
+        <section class="sections-enfant-1">
+            <h3>Adresses e-mail :</h3>
+            <ul>
+                <li>minotjeanclaude60@gmail.com</li>
+                <li>tresor300.contact@gmail.com</li>
+            </ul>
+        </section>
+        <section class="sections-enfant-2">
+            <h3>Numéro de téléphone :</h3>
+            <p>06.10.43.52.74</p>
+        </section>
+    </section>
 </template>
 
 <style scoped>
-    section {
+    .section-parent {
         width: 1680px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
-        padding: 80px 0 80px 0;
+        padding-bottom: 80px;
         border-bottom: solid 1px black;
     }
-
     h2 {
         width: 153px;
         height: 65px;
@@ -53,113 +35,48 @@
         font-weight: 600;
         font-size: 2.36em;
         margin: 0;
+        padding-top: 80px;
         padding-bottom: 80px;
+        align-self: center;
     }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        font-family: "Assistant", sans-serif;
-        font-weight: 600;
+    .sections-enfant-1 {
+        display: flex;  
+        flex-direction: row;
+        padding-bottom: 40px;
     }
 
-    div {
-        width: 1686px;
-        height: 48px;
-        display: flex;
-        padding-bottom: 16px;
+    .sections-enfant-2 {
+        display: flex;  
+        flex-direction: row;
+        padding-bottom: 40px;
+        position: relative;
+        left: -66px;
     }
 
-    #label-lastname {
-        font-size: 2em;
-        padding-right: 250px;
-    }
-
-    #input-lastname {
-        width: 1348px;
-        height: 42px;
-        background-color: #FFBD80;
-        border: solid 1px black;
-        font-family: "Assistant", sans-serif;
-        font-weight: 400;
+    h3 {
+        font-family: "Besley", serif;
         font-size: 1.5em;
-        color: black;
-        text-align: center;
     }
 
-    #label-firstname {
-        font-size: 2em;
-        padding-right: 207px;
-    }
-
-    #input-firstname {
-        width: 1348px;
-        height: 42px;
-        background-color: #FFBD80;
-        border: solid 1px black;
+    p {
         font-family: "Assistant", sans-serif;
-        font-weight: 400;
         font-size: 1.5em;
-        color: black;
-        text-align: center;
-    }
-
-    #label-e-mail {
-        font-size: 2em;
-        padding-right: 116px;
-    }
-
-    #input-e-mail {
-        width: 1348px;
-        height: 42px;
-        background-color: #FFBD80;
-        border: solid 1px black;
-        font-family: "Assistant", sans-serif;
-        font-weight: 400;
-        font-size: 1.5em;
-        color: black;
-        text-align: center;
-    }
-
-    #label-object {
-        font-size: 2em;
-        padding-right: 240px;
-    }
-
-    #input-object {
-        width: 1348px;
-        height: 42px;
-        background-color: #FFBD80;
-        border: solid 1px black;
-        font-family: "Assistant", sans-serif;
-        font-weight: 400;
-        font-size: 1.5em;
-        color: black;
-        text-align: center;
-    }
-
-    textarea {
-        width: 1620px;
-        height: 300px;
-        margin-top: 10px;
-        margin-bottom: 14px;
-        padding: 30px;
-        background-color: #FFBD80;
-        border: solid 1px black;
-        font-family: "Assistant", sans-serif;
-        font-weight: 400;
-        font-size: 1.5em;
-        color: black;
-    }
-
-    #submit-button {
-        width: 200px;
-        height: 50px;
+        margin: 0;
         align-self: end;
-        background-color: #FFBD80;
-        border: solid 1px black;
+        padding-left: 20px;
+    }
+    
+    ul {
+        list-style-type: square;
+        margin: 0;
+        position: relative;
+        top: -3px;
+    }
+    li {
         font-family: "Assistant", sans-serif;
-        font-weight: 400;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
     }
 </style>
