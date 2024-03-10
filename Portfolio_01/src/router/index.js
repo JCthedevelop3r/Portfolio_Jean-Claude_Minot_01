@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import homepage from "../views/homepage.vue"
 import figmaPage from "../views/figmaPage.vue"
-import error404 from "../views/error404.vue"
+import notFoundPage from "../views/notFoundPage.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,9 +20,9 @@ const router = createRouter({
     },
 
     {
-      path: "/.catchAll(.*)",
-      name: "error404",
-      component: error404,
+      path: "/:catchAll(.*)",
+      name: "notfoundpage",
+      component: notFoundPage,
     }
   ]
 })
