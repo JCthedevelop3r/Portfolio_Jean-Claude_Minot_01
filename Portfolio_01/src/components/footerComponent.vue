@@ -5,9 +5,9 @@
 <template>
     <footer>
         <section>
-            <img src="../assets/Images/Logo_de_Github.png" alt="Logo de Github">
-            <img src="../assets/Images/Logo_de_X.png" alt="Logo de X, ex-Twitter">
-            <img src="../assets/Images/Logo_de_Linkedin.png" alt="Logo de Linkedin">
+            <a href="https://github.com/" target="_blank"><img src="../assets/Images/Logo_de_Github.png" alt="Logo de Github"></a>
+            <a href="https://twitter.com/JCthedevelop3r" target="_blank"><img src="../assets/Images/Logo_de_X.png" alt="Logo de X, ex-Twitter"></a>
+            <a href="https://www.linkedin.com/in/jean-claude-minot-a894b6210/" target="_blank"><img src="../assets/Images/Logo_de_Linkedin.png" alt="Logo de Linkedin"></a>
         </section>
 
         <small><p>Dernière mise à jour du site le xx mars 2024.</p></small>

@@ -65,6 +65,8 @@
         margin: 0;
         align-self: end;
         padding-left: 20px;
+        position: relative;
+        top: -2px;
     }
     
     ul {
