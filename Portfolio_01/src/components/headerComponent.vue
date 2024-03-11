@@ -1,17 +1,25 @@
 <script setup>
-    
+    import { RouterLink, RouterView } from 'vue-router';
+
+    const handleClick = () => {
+      // Logique supplémentaire si nécessaire
+
+        return {
+            handleClick
+        };
+    };
 </script>
 
 <template>
     <header>
-        <h1>Jean-Claude Minot</h1>
+        <router-link to="/"><h1>Jean-Claude Minot</h1></router-link>
         <nav>
             <ul>
-                <li>À propos</li>
-                <li>Mon CV</li>
-                <li>Espace commentaire</li>
-                <li>Figma</li>
-                <li>Contact</li>
+                <a href="#about"><li>À propos</li></a>
+                <router-link to="/"><li>Mon CV</li></router-link>
+                <router-link to="/"><li>Espace commentaire</li></router-link>
+                <router-link to="/"><li>Figma</li></router-link>
+                <router-link to="/"><li>Contact</li></router-link>
             </ul>
         </nav>
     </header>
@@ -19,10 +27,13 @@
 
 <style scoped>
     header {
+        width: 1690px;
         display: flex;
         justify-content: space-between;
-        padding: 48px 0 48px 0;
-
+        padding: 34px 0 34px 0;
+        position: fixed;
+        left: 112px;
+        background: #FFBD80;
     }
 
     h1 {

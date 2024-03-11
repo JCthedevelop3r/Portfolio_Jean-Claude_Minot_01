@@ -40,7 +40,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 80px 0 80px 0;
+        padding: 48px 0 48px 0;
         border-bottom: solid 1px black;
     }
 
@@ -51,12 +51,13 @@
         font-weight: 600;
         font-size: 2.36em;
         margin: 0;
-        padding-bottom: 80px;
+        padding-bottom: 48px;
     }
     
     figure {
-        width: 449px;
-        height: 605px;
+        width: 415px;
+        height: 561px;
+        margin: 0;
     }
     
     img {

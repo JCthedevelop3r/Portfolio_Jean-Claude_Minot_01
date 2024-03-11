@@ -22,10 +22,12 @@
 <style scoped>
     .section-parent {
         width: 1680px;
+        height: 613px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 80px;
+        padding-bottom: 112px;
+        padding-top: 48px;
         border-bottom: solid 1px black;
     }
     h2 {
@@ -35,9 +37,7 @@
         font-weight: 600;
         font-size: 2.36em;
         margin: 0;
-        padding-top: 80px;
         padding-bottom: 80px;
-        align-self: center;
     }
 
     .sections-enfant-1 {

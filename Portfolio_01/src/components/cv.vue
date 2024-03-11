@@ -25,7 +25,7 @@
 
 <template>
     <section>
-        <h2>Créer un CV d'après une maquette</h2>
+        <h2 id="titre-cv">Créer un CV d'après une maquette</h2>
         <img src="../assets/Images/Screen_Devoir_CV.png" alt="Curriculum vitae d'un développeur web junior." @click="openModal">
         <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet v-if="isModalOpen">   
             <slot><button @click="closeModal">X</button></slot>
@@ -40,7 +40,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 80px 0 80px 0;
+        padding: 48px 0 48px 0;
         border-bottom: solid 1px black;
     }
 
@@ -51,11 +51,11 @@
         font-weight: 600;
         font-size: 2.36em;
         margin: 0;
-        padding-bottom: 80px;
+        padding-bottom: 48px;
     }
 
     img {
-        width: 449px;
-        height: 605px;
+        width: 415px;
+        height: 561px;
     }
 </style>
