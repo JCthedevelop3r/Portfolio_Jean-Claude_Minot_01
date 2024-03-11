@@ -16,6 +16,7 @@
         font-family: "Besley", serif;
         font-weight: 600;
         font-size: 2.36em;
+        padding-top: 167px;
     }
 
     p {

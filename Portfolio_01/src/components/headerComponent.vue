@@ -5,14 +5,14 @@
 
 <template>
     <header>
-        <router-link to="/"><h1>Jean-Claude Minot</h1></router-link>
+        <router-link to="/" class="r-l-title"><h1>Jean-Claude Minot</h1></router-link>
         <nav>
             <ul>
-                <router-link to="/"><li>À propos</li></router-link>
-                <router-link to="/"><li>Mon CV</li></router-link>
-                <router-link to="/"><li>Espace commentaire</li></router-link>
-                <router-link to="/"><li>Figma</li></router-link>
-                <router-link to="/"><li>Contact</li></router-link>
+                <router-link class="elements-barnav" to="/"><li>À propos</li></router-link>
+                <router-link class="elements-barnav" to="/"><li>Mon CV</li></router-link>
+                <router-link class="elements-barnav" to="/"><li>Espace commentaire</li></router-link>
+                <router-link class="elements-barnav" to="/"><li>Figma</li></router-link>
+                <router-link class="elements-barnav" to="/"><li>Contact</li></router-link>
             </ul>
         </nav>
     </header>
@@ -29,6 +29,10 @@
         background: #FFBD80;
     }
 
+    .r-l-title {
+        text-decoration: none;
+    }
+    
     h1 {
         width: 218px;
         height: 30px;
@@ -36,6 +40,7 @@
         font-family: "Assistant", sans-serif;
         font-weight: 400;
         font-size: 1.62em;
+        color: black;
     }
 
     ul {
@@ -51,4 +56,12 @@
         padding-left: 0;
     }
 
+    .elements-barnav {
+        color: black;
+        text-decoration: none;
+    }
+
+    .elements-barnav:hover {
+        text-decoration: underline;
+    }
 </style>
