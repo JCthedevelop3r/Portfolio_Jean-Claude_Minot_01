@@ -6,11 +6,13 @@
     const sousTitre1 = "Objectifs du projet : ";
     const objectifs = " Créer les wireframes des différentes pages d'un site fictif et créer le prototype de sa page d'accueil.";
     const sousTitre2 = "Date de création : ";
-    const date = "2 mars 2024";
+    const date = "29 février 2024";
     const sousTitre3 = "Technologies utilisées : ";
     const technologies = " Figma."
     const sousTitre4 = "Voir le projet : "
     const voirProjet = "Maquetter un site avec Figma."
+    const dateTime = "2024-02-29";
+    const lienProjet = "/figmapage";
 
     const isModalOpen = ref(false);
 
@@ -24,11 +26,12 @@
 </script>
 
 <template>
-    <section>
+    <section id="figma">
         <h2>Maquetter un site avec Figma</h2>
         <figure><img src="../assets/Images/Screen_Prototype_Probeats.png" alt="Maquette d'un site web fictif." @click="openModal"></figure>
-        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet v-if="isModalOpen">   
-            <slot><button @click="closeModal">X</button></slot>
+        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet :dateTime :lienProjet v-if="isModalOpen">   
+            <template v-slot:overlay><div class="overlay" @click="closeModal"></div></template>
+            <template v-slot:button><button @click="closeModal">X</button></template>
         </modal>
     </section>
 </template>
@@ -64,5 +67,12 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background: #333333d3;
     }
 </style>

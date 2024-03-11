@@ -8,9 +8,11 @@
     const sousTitre2 = "Date de création : ";
     const date = "16 novembre 2023.";
     const sousTitre3 = "Technologies utilisées : ";
-    const technologies = " HTML 5 - CSS 3 - Github pour le versioning."
-    const sousTitre4 = "Voir le projet : "
-    const voirProjet = "Créer un CV d'après une maquette."
+    const technologies = " HTML 5 - CSS 3 - Github pour le versioning.";
+    const sousTitre4 = "Voir le projet : ";
+    const voirProjet = "Créer un CV d'après une maquette.";
+    const dateTime = "2023-11-16";
+    const lienProjet = "https://github.com/JCthedevelop3r/Devoir_CV"
 
     const isModalOpen = ref(false);
 
@@ -24,11 +26,12 @@
 </script>
 
 <template>
-    <section>
-        <h2 id="titre-cv">Créer un CV d'après une maquette</h2>
+    <section id="cv">
+        <h2>Créer un CV d'après une maquette</h2>
         <img src="../assets/Images/Screen_Devoir_CV.png" alt="Curriculum vitae d'un développeur web junior." @click="openModal">
-        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet v-if="isModalOpen">   
-            <slot><button @click="closeModal">X</button></slot>
+        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet :dateTime :lienProjet v-if="isModalOpen">  
+            <template v-slot:overlay><div class="overlay" @click="closeModal"></div></template>
+            <template v-slot:button><button @click="closeModal">X</button></template>
         </modal>
     </section>
 </template>
@@ -57,5 +60,12 @@
     img {
         width: 415px;
         height: 561px;
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background: #333333d3;
     }
 </style>

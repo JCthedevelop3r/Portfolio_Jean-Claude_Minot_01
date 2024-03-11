@@ -8,9 +8,11 @@
     const sousTitre2 = "Date de création : ";
     const date = "25 décembre 2023";
     const sousTitre3 = "Technologies utilisées : ";
-    const technologies = " JavaScript - HTML 5 - Github pour le versioning."
-    const sousTitre4 = "Voir le projet : "
-    const voirProjet = "Dynamiser un espace commentaire."
+    const technologies = " JavaScript - HTML 5 - Github pour le versioning.";
+    const sousTitre4 = "Voir le projet : ";
+    const voirProjet = "Dynamiser un espace commentaire.";
+    const dateTime = "2023-12-25";
+    const lienProjet = "https://github.com/JCthedevelop3r/Devoir_Dynamiser_un_Espace_Commentaire";
 
     const isModalOpen = ref(false);
 
@@ -24,11 +26,12 @@
 </script>
 
 <template>
-    <section>
+    <section id="esp-com">
         <h2>Dynamiser un Espace Commentaire</h2>
         <figure><img src="../assets/Images/Screen_Devoir_Dynamiser_Espace_Commentaire.png" alt="Espace commentaire d'une page web." @click="openModal"></figure>
-        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet v-if="isModalOpen">   
-            <slot><button @click="closeModal">X</button></slot>
+        <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet :dateTime :lienProjet v-if="isModalOpen">   
+            <template v-slot:overlay><div class="overlay" @click="closeModal"></div></template>
+            <template v-slot:button><button @click="closeModal">X</button></template>
         </modal>
     </section>
 </template>
@@ -64,5 +67,12 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background: #333333d3;
     }
 </style>

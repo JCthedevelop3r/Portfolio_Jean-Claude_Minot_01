@@ -9,6 +9,8 @@
         technologies: String,
         sousTitre4: String,
         voirProjet: String,
+        dateTime: String,
+        lienProjet: String,
 
     })
     
@@ -16,19 +18,19 @@
 
 <template>
     <div class="modal-container">
-        <div class="overlay">
+        <slot name="overlay"></slot>
             <div class="modal">
-                <slot></slot>
+                <slot name="button"></slot>
                 <h2>{{ titre }}</h2>
                 <ul>
                      <li><h3>{{ sousTitre1 }}</h3>{{ objectifs }}</li>
-                     <li><h3>{{ sousTitre2 }}</h3> <time datetime="2023-11-16">{{ date }}</time>.</li>
+                     <li><h3>{{ sousTitre2 }}</h3> <time :datetime="dateTime">{{ date }}</time>.</li>
                      <li><h3>{{ sousTitre3 }}</h3>{{ technologies }}</li>
-                     <li><h3>{{ sousTitre4 }}</h3> <a href="https://github.com/JCthedevelop3r/Devoir_CV" target="_blank">{{ voirProjet }}</a></li>
+                     <li><h3>{{ sousTitre4 }}</h3> <a :href="lienProjet" target="_blank">{{ voirProjet }}</a></li>
                 </ul>
 
             </div>
-        </div>
+        
     </div>
 </template>
 
@@ -40,13 +42,6 @@
         top: 0;
         left: 0;
     } 
-
-    .overlay {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background: #333333d3;
-    }
 
     .modal {
         display: flex;

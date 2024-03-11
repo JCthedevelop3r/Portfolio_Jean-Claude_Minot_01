@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="section-parent">
+    <section class="section-parent"  id="contact">
         <h2>Contact</h2>
         <section class="sections-enfant-1">
             <h3>Adresses e-mail :</h3>

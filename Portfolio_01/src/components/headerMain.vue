@@ -1,18 +1,13 @@
-<script setup>
-    import { RouterLink, RouterView } from 'vue-router';
-
-</script>
-
 <template>
     <header>
-        <router-link to="/"><h1>Jean-Claude Minot</h1></router-link>
+        <a href="#"><h1>Jean-Claude Minot</h1></a>
         <nav>
             <ul>
-                <router-link to="/"><li>À propos</li></router-link>
-                <router-link to="/"><li>Mon CV</li></router-link>
-                <router-link to="/"><li>Espace commentaire</li></router-link>
-                <router-link to="/"><li>Figma</li></router-link>
-                <router-link to="/"><li>Contact</li></router-link>
+                <a href="#about"><li>À propos</li></a>
+                <a href="#cv"><li>Mon CV</li></a>
+                <a href="#esp-com"><li>Espace commentaire</li></a>
+                <a href="#figma"><li>Figma</li></a>
+                <a href="#contact"><li>Contact</li></a>
             </ul>
         </nav>
     </header>
