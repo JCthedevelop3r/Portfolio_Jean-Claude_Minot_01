@@ -6,7 +6,7 @@
     const sousTitre1 = "Objectifs du projet : ";
     const objectifs = " Créer mon CV en suivant une maquette et en intégrant des effets graphiques, des liens, etc.";
     const sousTitre2 = "Date de création : ";
-    const date = "16 novembre 2023.";
+    const date = "16 novembre 2023";
     const sousTitre3 = "Technologies utilisées : ";
     const technologies = " HTML 5 - CSS 3 - Github pour le versioning.";
     const sousTitre4 = "Voir le projet : ";
@@ -60,6 +60,11 @@
     img {
         width: 415px;
         height: 561px;
+    }
+
+    img:hover {
+        box-shadow: 5px 5px;
+        cursor: pointer;
     }
 
     .overlay {

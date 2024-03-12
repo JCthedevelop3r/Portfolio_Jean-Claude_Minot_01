@@ -88,4 +88,13 @@
         font-size: 1em;
         margin: 0;
     }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
 </style>

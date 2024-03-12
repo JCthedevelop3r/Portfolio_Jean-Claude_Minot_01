@@ -10,7 +10,7 @@
             <a href="https://www.linkedin.com/in/jean-claude-minot-a894b6210/" target="_blank"><img src="../assets/Images/Logo_de_Linkedin.png" alt="Logo de Linkedin"></a>
         </section>
 
-        <small><p>Dernière mise à jour du site le xx mars 2024.</p></small>
+        <small><p>Dernière mise à jour du site le 12 mars 2024.</p></small>
     </footer>
 </template>
 
@@ -36,5 +36,9 @@
 
     small {
         align-self: end;
+    }
+
+    a:hover {
+        opacity: 0.5;
     }
 </style>

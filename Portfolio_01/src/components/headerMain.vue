@@ -1,6 +1,6 @@
 <template>
     <header>
-        <a href="#"><h1>Jean-Claude Minot</h1></a>
+        <a href="#" class="anchor-title"><h1>Jean-Claude Minot</h1></a>
         <nav>
             <ul>
                 <li><a href="#about" class="elements-barnav" @click="addUnderline($event)">À propos</a></li>
@@ -41,6 +41,10 @@
         font-family: "Assistant", sans-serif;
         font-weight: 400;
         font-size: 1.62em;
+    }
+
+    .anchor-title:hover {
+        text-decoration: none
     }
 
     ul {

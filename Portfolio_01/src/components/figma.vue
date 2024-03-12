@@ -69,6 +69,11 @@
         object-fit: cover;
     }
 
+    img:hover {
+        box-shadow: 5px 5px;
+        cursor: pointer;
+    }
+
     .overlay {
         position: absolute;
         width: 100vw;

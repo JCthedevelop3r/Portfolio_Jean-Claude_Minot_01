@@ -8,13 +8,13 @@
         <section class="sections-enfant-1">
             <h3>Adresses e-mail :</h3>
             <ul>
-                <li>minotjeanclaude60@gmail.com</li>
-                <li>tresor300.contact@gmail.com</li>
+                <a href="mailto:minotjeanclaude60@gmail.com"><li>minotjeanclaude60@gmail.com</li></a>
+                <a href="mailto:tresor300.contact@gmail.com"><li>tresor300.contact@gmail.com</li></a>
             </ul>
         </section>
         <section class="sections-enfant-2">
             <h3>Numéro de téléphone :</h3>
-            <p>06.10.43.52.74</p>
+            <a href="tel: 0610435274" class="tel"><p>06.10.43.52.74</p></a>
         </section>
     </section>
 </template>
@@ -59,14 +59,19 @@
         font-size: 1.5em;
     }
 
+    .tel {
+        height: 32px;
+        position: relative;
+        top: 7px;
+        padding-bottom: 9px;
+
+    }
     p {
         font-family: "Assistant", sans-serif;
         font-size: 1.5em;
         margin: 0;
         align-self: end;
         padding-left: 20px;
-        position: relative;
-        top: -2px;
     }
     
     ul {
