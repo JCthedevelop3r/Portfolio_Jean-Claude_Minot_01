@@ -28,7 +28,7 @@
 <template>
     <section id="cv">
         <h2>Créer un CV d'après une maquette</h2>
-        <img src="../assets/Images/Screen_Devoir_CV.png" alt="Curriculum vitae d'un développeur web junior." @click="openModal">
+        <img src="../assets/Images/CV_Jean-Claude_Minot_02.png" alt="Curriculum vitae d'un développeur web junior." @click="openModal">
         <modal :titre :sousTitre1 :objectifs :sousTitre2 :date :sousTitre3 :technologies :sousTitre4 :voirProjet :dateTime :lienProjet v-if="isModalOpen">  
             <template v-slot:overlay><div class="overlay" @click="closeModal"></div></template>
             <template v-slot:button><button @click="closeModal">X</button></template>

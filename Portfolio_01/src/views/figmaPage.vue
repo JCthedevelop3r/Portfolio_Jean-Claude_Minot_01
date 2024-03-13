@@ -9,7 +9,7 @@
     <section>
         <h3>Wireframes desktop</h3>
         <h4>Page d'accueil</h4>
-        <figure class="wireframes-desktop-figure-1"><img src="../assets/Images/Page_d'accueil_Probeats_Desktop.png" alt="Wireframe desktop de la page d'accueil du site fictif Probeats." class="wireframes-desktop-img"></figure>
+        <figure class="wireframes-desktop-figure-1"><img src="../assets/Images/Page_daccueil_Probeats_Desktop.png" alt="Wireframe desktop de la page d'accueil du site fictif Probeats." class="wireframes-desktop-img"></figure>
         <h4>Page Produit</h4>
         <figure class="wireframes-desktop-figure-2"><img src="../assets/Images/Page_produit_Probeats_Desktop.png" alt="Wireframe desktop de la page produit du site fictif Probeats." class="wireframes-desktop-img"></figure>
         <h4>Page Commande</h4>
@@ -22,7 +22,7 @@
     <section>
         <h3 class="h3-wm">Wireframes mobile</h3>
         <h4>Page d'accueil</h4>
-        <figure class="wireframes-mobile-figure-1"><img src="../assets/Images/Page_d'accueil_Probeats_Mobile.png" alt="Wireframe mobile de la page d'accueil du site fictif Probeats." class="wireframes-mobile-img"></figure>
+        <figure class="wireframes-mobile-figure-1"><img src="../assets/Images/Page_daccueil_Probeats_Mobile.png" alt="Wireframe mobile de la page d'accueil du site fictif Probeats." class="wireframes-mobile-img"></figure>
         <h4>Page Produit</h4>
         <figure class="wireframes-mobile-figure-2"><img src="../assets/Images/Page_produit_Probeats_Mobile.png" alt="Wireframe mobile de la page produit du site fictif Probeats." class="wireframes-mobile-img"></figure>
         <h4>Page Commande</h4>
@@ -40,7 +40,7 @@
     </section>
     <section>
         <h3 class="h3-pm">Prototype mobile</h3>
-        <figure class="prototype-mobile-figure"><img src="../assets/Images/Prototype_Page d'accueil_Probeats_Mobile.png" alt="Prototype mobile de la page d'accueil du site fictif Probeats." class="prototype-mobile"></figure>
+        <figure class="prototype-mobile-figure"><img src="../assets/Images/Prototype_Page_daccueil_Probeats_Mobile.png" alt="Prototype mobile de la page d'accueil du site fictif Probeats." class="prototype-mobile"></figure>
     </section>
     <footerComponent></footerComponent>
 </template>
