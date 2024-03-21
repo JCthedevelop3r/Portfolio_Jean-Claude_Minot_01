@@ -10,26 +10,28 @@
 </template>
 
 <style scoped>
-    section {
-        width: 1680px;
-        display: flex;
-        justify-content: space-between;
-        padding: 230px 0 230px 0;
-        border-bottom: solid 1px black;
-    }
+    @media screen and (min-width: 1200px) {
+        section {
+            width: 1680px;
+            display: flex;
+            justify-content: space-between;
+            padding: 230px 0 230px 0;
+            border-bottom: solid 1px black;
+        }
 
-    p {
-        width: 700px;
-        height: 425px;
-        font-family: "Besley", serif;
-        font-weight: 600;
-        font-size: 3.2em;
-        text-align: center;
-        margin: 0;
-    }
+        p {
+            width: 700px;
+            height: 425px;
+            font-family: "Besley", serif;
+            font-weight: 600;
+            font-size: 3.2em;
+            text-align: center;
+            margin: 0;
+        }
 
-    img {
-        width: 318px;
-        height: 450px;
+        img {
+            width: 318px;
+            height: 450px;
+        }
     }
 </style>

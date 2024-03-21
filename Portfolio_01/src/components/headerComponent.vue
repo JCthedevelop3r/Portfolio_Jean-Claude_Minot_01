@@ -19,49 +19,51 @@
 </template>
 
 <style scoped>
-    header {
-        width: 1690px;
-        display: flex;
-        justify-content: space-between;
-        padding: 34px 0 34px 0;
-        position: fixed;
-        left: 112px;
-        background: #FFBD80;
-    }
+    @media screen and (min-width: 1200px) {
+        header {
+            width: 1690px;
+            display: flex;
+            justify-content: space-between;
+            padding: 34px 0 34px 0;
+            position: fixed;
+            left: 112px;
+            background: #FFBD80;
+        }
 
-    .r-l-title {
-        text-decoration: none;
-    }
+        .r-l-title {
+            text-decoration: none;
+        }
     
-    h1 {
-        width: 218px;
-        height: 30px;
-        padding: 5px 2px 5px 2px;
-        font-family: "Assistant", sans-serif;
-        font-weight: 400;
-        font-size: 1.62em;
-        color: black;
-    }
+        h1 {
+            width: 218px;
+            height: 30px;
+            padding: 5px 2px 5px 2px;
+            font-family: "Assistant", sans-serif;
+            font-weight: 400;
+            font-size: 1.62em;
+            color: black;
+        }
 
-    ul {
-        width: 669px;
-        height: 31px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        list-style-type: none;
-        font-family: "Assistant", sans-serif;
-        font-weight: 300;
-        font-size: 1.4em;
-        padding-left: 0;
-    }
+        ul {
+            width: 669px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+            font-family: "Assistant", sans-serif;
+            font-weight: 300;
+            font-size: 1.4em;
+            padding-left: 0;
+        }
 
-    .elements-barnav {
-        color: black;
-        text-decoration: none;
-    }
+        .elements-barnav {
+            color: black;
+            text-decoration: none;
+        }
 
-    .elements-barnav:hover {
-        text-decoration: underline;
+        .elements-barnav:hover {
+            text-decoration: underline;
+        }
     }
 </style>

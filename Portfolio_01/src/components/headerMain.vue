@@ -24,49 +24,51 @@
 </script>
 
 <style scoped>
-    header {
-        width: 1690px;
-        display: flex;
-        justify-content: space-between;
-        padding: 34px 0 34px 0;
-        position: fixed;
-        left: 112px;
-        background: #FFBD80;
-    }
+    @media screen and (min-width: 1200px) {
+        header {
+            width: 1690px;
+            display: flex;
+            justify-content: space-between;
+            padding: 34px 0 34px 0;
+            position: fixed;
+            left: 112px;
+            background: #FFBD80;
+        }
 
-    h1 {
-        width: 218px;
-        height: 30px;
-        padding: 5px 2px 5px 2px;
-        font-family: "Assistant", sans-serif;
-        font-weight: 400;
-        font-size: 1.62em;
-    }
+        h1 {
+            width: 218px;
+            height: 30px;
+            padding: 5px 2px 5px 2px;
+            font-family: "Assistant", sans-serif;
+            font-weight: 400;
+            font-size: 1.62em;
+        }
 
-    .anchor-title:hover {
-        text-decoration: none
-    }
+        .anchor-title:hover {
+            text-decoration: none
+        }
 
-    ul {
-        width: 669px;
-        height: 31px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        list-style-type: none;
-        font-family: "Assistant", sans-serif;
-        font-weight: 300;
-        font-size: 1.4em;
-        padding-left: 0;
-    }
+        ul {
+            width: 669px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+            font-family: "Assistant", sans-serif;
+            font-weight: 300;
+            font-size: 1.4em;
+            padding-left: 0;
+        }
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
-    .underline {
-        text-decoration: underline;
-        text-decoration-thickness: 2px;
+        .underline {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+        }
     }
 </style>

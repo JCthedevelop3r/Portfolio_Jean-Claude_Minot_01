@@ -37,47 +37,49 @@
 </template>
 
 <style scoped>
-    section {
-        width: 1680px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 48px 0 48px 0;
-        border-bottom: solid 1px black;
-    }
+    @media screen and (min-width: 1200px) {
+        section {
+            width: 1680px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 48px 0 48px 0;
+            border-bottom: solid 1px black;
+        }
 
-    h2 {
-        width: 585px;
-        height: 65px;
-        font-family: "Besley", serif;
-        font-weight: 600;
-        font-size: 2.36em;
-        margin: 0;
-        padding-bottom: 48px;
-    }
+        h2 {
+            width: 585px;
+            height: 65px;
+            font-family: "Besley", serif;
+            font-weight: 600;
+            font-size: 2.36em;
+            margin: 0;
+            padding-bottom: 48px;
+        }
     
-    figure {
-        width: 415px;
-        height: 561px;
-        margin: 0;
-    }
+        figure {
+            width: 415px;
+            height: 561px;
+            margin: 0;
+        }
 
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-    img:hover {
-        box-shadow: 5px 5px;
-        cursor: pointer;
-    }
+        img:hover {
+            box-shadow: 5px 5px;
+            cursor: pointer;
+        }
 
-    .overlay {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background: #333333d3;
+        .overlay {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: #333333d3;
+        }
     }
 </style>

@@ -17,62 +17,64 @@
 </template>
 
 <style scoped>
-    .section-parent {
-        width: 1680px;
-        height: 613px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 112px;
-        padding-top: 48px;
-        border-bottom: solid 1px black;
-    }
-    h2 {
-        width: 153px;
-        height: 65px;
-        font-family: "Besley", serif;
-        font-weight: 600;
-        font-size: 2.36em;
-        margin: 0;
-        padding-bottom: 80px;
-    }
+    @media screen and (min-width: 1200px) {
+        .section-parent {
+            width: 1680px;
+            height: 613px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 112px;
+            padding-top: 48px;
+            border-bottom: solid 1px black;
+        }
+        h2 {
+            width: 153px;
+            height: 65px;
+            font-family: "Besley", serif;
+            font-weight: 600;
+            font-size: 2.36em;
+            margin: 0;
+            padding-bottom: 80px;
+        }
 
-    .sections-enfant-1 {
-        display: flex;  
-        flex-direction: row;
-        padding-bottom: 40px;
-    }
+        .sections-enfant-1 {
+            display: flex;  
+            flex-direction: row;
+            padding-bottom: 40px;
+        }
 
-    .sections-enfant-2 {
-        display: flex;  
-        flex-direction: row;
-        padding-bottom: 40px;
-        position: relative;
-        left: -66px;
-    }
+        .sections-enfant-2 {
+            display: flex;  
+            flex-direction: row;
+            padding-bottom: 40px;
+            position: relative;
+            left: -66px;
+        }
 
-    h3 {
-        font-family: "Besley", serif;
-        font-size: 1.5em;
-    }
+        h3 {
+            font-family: "Besley", serif;
+            font-size: 1.5em;
+        }
 
-    .e-mail {
-        position: relative;
-        top: 5px;
-    }
+        .e-mail {
+            position: relative;
+            top: 5px;
+        }
 
-    .tel {
-        height: 32px;
-        position: relative;
-        top: 7px;
-        padding-bottom: 9px;
+        .tel {
+            height: 32px;
+            position: relative;
+            top: 7px;
+            padding-bottom: 9px;
 
-    }
-    p {
-        font-family: "Assistant", sans-serif;
-        font-size: 1.5em;
-        margin: 0;
-        align-self: end;
-        padding-left: 20px;
+        }
+        p {
+            font-family: "Assistant", sans-serif;
+            font-size: 1.5em;
+            margin: 0;
+            align-self: end;
+            padding-left: 20px;
+        }
     }
 </style>

@@ -15,30 +15,32 @@
 </template>
 
 <style scoped>
-    footer {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 80px;
-        padding-bottom: 10px;
-    }
+    @media screen and (min-width: 1200px) {
+        footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+            padding-bottom: 10px;
+        }
 
-    section {
-        width: 184px;
-        display: flex;
-        justify-content: space-between;
-    }
+        section {
+            width: 184px;
+            display: flex;
+            justify-content: space-between;
+        }
 
-    p {
-        font-family: "Assistant", sans-serif;
-        font-weight: 300;
-        margin: 0;
-    }
+        p {
+            font-family: "Assistant", sans-serif;
+            font-weight: 300;
+            margin: 0;
+        }
 
-    small {
-        align-self: end;
-    }
+        small {
+            align-self: end;
+        }
 
-    a:hover {
-        opacity: 0.5;
+        a:hover {
+            opacity: 0.5;
+        }
     }
 </style>

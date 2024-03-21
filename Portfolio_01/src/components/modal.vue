@@ -35,66 +35,68 @@
 </template>
 
 <style>
-    .modal-container {
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-    } 
+    @media screen and (min-width: 1200px) {
+        .modal-container {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        } 
 
-    .modal {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 544px;
-        height: 250px;
-        position: absolute;
-        top: 25%;
-        left: 34%;
-        background: #FFBD80;
-        border-style: double;
-        color: black;
-        padding: 20px;
-    }
+        .modal {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 544px;
+            height: 250px;
+            position: absolute;
+            top: 25%;
+            left: 34%;
+            background: #FFBD80;
+            border-style: double;
+            color: black;
+            padding: 20px;
+        }
 
-    button {
-        width: 35px;
-        position: absolute;
-        left: 550px;
-        top: -1px;
-        background-color: #FFBD80;
-        border: solid 1px black;
-    }
+        button {
+            width: 35px;
+            position: absolute;
+            left: 550px;
+            top: -1px;
+            background-color: #FFBD80;
+            border: solid 1px black;
+        }
 
-    h2 {
-        font-family: 'Besley', 'serif';
-        font-weight: 600;
-        margin: 0;
-    }
+        h2 {
+            font-family: 'Besley', 'serif';
+            font-weight: 600;
+            margin: 0;
+        }
 
-    ul {
-        line-height: 2;
-        font-family: 'Assistant', 'sans-serif';
-        font-weight: 400;
-        list-style-type: none;
-        margin-top: 20px;
-    }
+        ul {
+            line-height: 2;
+            font-family: 'Assistant', 'sans-serif';
+            font-weight: 400;
+            list-style-type: none;
+            margin-top: 20px;
+        }
 
-    h3 {
-        display: inline-block;
-        font-weight: 600;
-        font-size: 1em;
-        margin: 0;
-    }
+        h3 {
+            display: inline-block;
+            font-weight: 600;
+            font-size: 1em;
+            margin: 0;
+        }
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
-    a:hover{
-        text-decoration: underline;
+        a:hover{
+            text-decoration: underline;
+        }
     }
 </style>
