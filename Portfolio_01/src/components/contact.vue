@@ -7,10 +7,7 @@
         <h2>Contact</h2>
         <section class="sections-enfant-1">
             <h3>Adresses e-mail :</h3>
-            <ul>
-                <a href="mailto:minotjeanclaude60@gmail.com"><li>minotjeanclaude60@gmail.com</li></a>
-                <a href="mailto:tresor300.contact@gmail.com"><li>tresor300.contact@gmail.com</li></a>
-            </ul>
+                <a href="mailto:tresor300.contact@gmail.com" class="e-mail"><p>tresor300.contact@gmail.com</p></a>
         </section>
         <section class="sections-enfant-2">
             <h3>Numéro de téléphone :</h3>
@@ -59,6 +56,11 @@
         font-size: 1.5em;
     }
 
+    .e-mail {
+        position: relative;
+        top: 5px;
+    }
+
     .tel {
         height: 32px;
         position: relative;
@@ -72,18 +74,5 @@
         margin: 0;
         align-self: end;
         padding-left: 20px;
-    }
-    
-    ul {
-        list-style-type: square;
-        margin: 0;
-        position: relative;
-        top: -3px;
-    }
-    li {
-        font-family: "Assistant", sans-serif;
-        font-size: 1.5em;
-        margin: 0;
-        padding: 0;
     }
 </style>
