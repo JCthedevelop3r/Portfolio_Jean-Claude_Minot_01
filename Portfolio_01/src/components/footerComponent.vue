@@ -43,4 +43,37 @@
             opacity: 0.5;
         }
     }
+
+    @media screen and (max-width: 480px) {
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 4px;
+        }
+
+        section {
+            width: 33%;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        img {
+            width: 24px;
+        }
+
+        a:active {
+            opacity: 0.5;
+        }
+
+        p {
+            font-family: "Assistant", sans-serif;
+            font-weight: 300;
+            font-size: 0.8em;
+            margin: 0;
+        }
+
+    }
 </style>

@@ -34,4 +34,29 @@
             height: 450px;
         }
     }
+
+    @media screen and (max-width: 480px) {
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 40px;
+            border-bottom: solid 1px black;
+        }
+
+        p {
+            width: 87%;
+            font-family: "Besley", serif;
+            font-weight: 600;
+            font-size: 1em;
+            text-align: center;
+            margin: 0;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        } 
+
+        img {
+            width: 50%;
+        }
+    }
 </style>

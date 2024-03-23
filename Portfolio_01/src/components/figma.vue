@@ -82,4 +82,44 @@
             background: #333333d3;
         }
     }
+
+    @media screen and (max-width: 480px) {
+        section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-bottom: solid 1px black;
+        }
+
+        h2 {
+            margin: 0;
+            font-family: 'Besley', serif;
+            font-weight: 600;
+            font-size: 0.85em;
+            padding-bottom: 20px;
+        }
+
+        figure {
+            width: 256px;
+            height: 346.156px;
+            margin: 0;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: #333333d3;
+        }
+    }
 </style>

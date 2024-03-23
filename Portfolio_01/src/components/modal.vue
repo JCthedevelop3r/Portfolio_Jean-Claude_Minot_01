@@ -26,7 +26,7 @@
                      <li><h3>{{ sousTitre1 }}</h3>{{ objectifs }}</li>
                      <li><h3>{{ sousTitre2 }}</h3> <time :datetime="dateTime">{{ date }}</time>.</li>
                      <li><h3>{{ sousTitre3 }}</h3>{{ technologies }}</li>
-                     <li><h3>{{ sousTitre4 }}</h3> <a :href="lienProjet" target="_blank">{{ voirProjet }}</a></li>
+                     <li><h3>{{ sousTitre4 }}</h3> <a :href="lienProjet">{{ voirProjet }}</a></li>
                 </ul>
 
             </div>
@@ -96,6 +96,83 @@
         }
 
         a:hover{
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .modal-container {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        } 
+
+        .modal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            background: #FFBD80;
+            border-style: double;
+            color: black;
+            padding: 15px;
+        }
+
+        button {
+            width: 30px;
+            height: 30px;
+            position: fixed;
+            left: 85%;
+            top: 11%;
+            background-color: #4B4B4B;
+            border: none;
+            border-radius: 50%;
+            color: #FFBD80;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        h2 {
+            font-family: 'Besley', 'serif';
+            font-weight: 600;
+            font-size: 1.1em;
+            margin: 0;
+            padding-top: 6%;
+            text-align: center;
+        }
+
+        ul {
+            font-family: 'Assistant', 'sans-serif';
+            font-weight: 400;
+            list-style-type: none;
+            margin-top: 8%;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 1em;
+            margin: 0;
+            padding: 8% 0 8% 0;
+        }
+
+        li {
+            width: 85%;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:active{
             text-decoration: underline;
         }
     }

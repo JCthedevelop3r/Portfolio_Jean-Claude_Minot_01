@@ -19,11 +19,10 @@
 </template>
 
 <style scoped>
-    @media screen and (min-width: 1200px) {
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10% 0 10%;
     }
 </style>
