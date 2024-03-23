@@ -91,7 +91,6 @@
             display: flex;
             justify-content: space-between;
             padding: 10px;
-            position: ;
         }
 
         h1 {
