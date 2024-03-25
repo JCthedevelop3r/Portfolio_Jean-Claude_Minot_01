@@ -72,7 +72,7 @@
         }
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 320px) {
         header {
             width: 100%;
             position: sticky;

@@ -100,7 +100,7 @@
         }
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 320px) {
         .modal-container {
             width: 100vw;
             height: 100vh;
@@ -118,7 +118,7 @@
             align-items: center;
             width: 80%;
             position: absolute;
-            top: 10%;
+            top: 5%;
             left: 5%;
             background: #FFBD80;
             border-style: double;
@@ -131,7 +131,7 @@
             height: 30px;
             position: fixed;
             left: 85%;
-            top: 11%;
+            top: 6%;
             background-color: #4B4B4B;
             border: none;
             border-radius: 50%;

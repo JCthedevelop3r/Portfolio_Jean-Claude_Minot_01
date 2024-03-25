@@ -35,7 +35,7 @@
         }
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 320px) {
         section {
             display: flex;
             flex-direction: column;
@@ -58,5 +58,5 @@
         img {
             width: 50%;
         }
-    }
+    } 
 </style>

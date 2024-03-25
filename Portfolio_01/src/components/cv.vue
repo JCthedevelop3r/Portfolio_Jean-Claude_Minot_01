@@ -76,7 +76,7 @@
         }
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 320px) {
         section {
             width: 100%;
             display: flex;
