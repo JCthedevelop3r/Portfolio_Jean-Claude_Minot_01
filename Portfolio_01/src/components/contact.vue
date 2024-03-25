@@ -84,8 +84,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding-top: 12%;
+            padding-bottom: 12%;
             border-bottom: solid 1px black;
         }
 
@@ -94,6 +94,7 @@
             font-family: 'Besley', serif;
             font-weight: 600;
             font-size: 0.85em;
+            padding-top: 0;
             padding-bottom: 20px;
         }
 

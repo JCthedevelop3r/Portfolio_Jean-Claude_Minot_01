@@ -1,6 +1,6 @@
 <script setup>
     import headerComponent from "@/components/headerComponent.vue";
-    import footerComponent from "@/components/footerComponent.vue";
+    import footerMain from "@/components/footerMain.vue";
 </script>
 
 <template>
@@ -42,7 +42,7 @@
         <h3 class="h3-pm">Prototype mobile</h3>
         <figure class="prototype-mobile-figure"><img src="../assets/Images/Prototype_Page_daccueil_Probeats_Mobile.png" alt="Prototype mobile de la page d'accueil du site fictif Probeats." class="prototype-mobile"></figure>
     </section>
-    <footerComponent></footerComponent>
+    <footerMain></footerMain>
 </template>
 
 <style scoped>

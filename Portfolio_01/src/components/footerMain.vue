@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <footer>
         <section>
@@ -52,8 +48,6 @@
             align-items: center;
             padding-top: 10px;
             padding-bottom: 4px;
-            position: fixed;
-            bottom: 0;
         }
 
         section {
