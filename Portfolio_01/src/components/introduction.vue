@@ -10,30 +10,30 @@
 </template>
 
 <style scoped>
-    /*@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         section {
-            width: 1680px;
+            width: 100%;
             display: flex;
             justify-content: space-between;
-            padding: 230px 0 230px 0;
+            align-items: center;
+            padding: 20% 0 10% 0;
             border-bottom: solid 1px black;
         }
 
         p {
-            width: 700px;
-            height: 425px;
+            width: 60%;
             font-family: "Besley", serif;
             font-weight: 600;
-            font-size: 3.2em;
+            font-size: 1.5em;
             text-align: center;
             margin: 0;
         }
 
         img {
-            width: 318px;
-            height: 450px;
+            width: 25%;
+            height: 25%;
         }
-    }*/
+    }
 
     @media screen and (max-width: 1023px) {
         section {

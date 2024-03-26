@@ -37,30 +37,28 @@
 </template>
 
 <style scoped>
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         section {
-            width: 1680px;
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            padding: 48px 0 48px 0;
+            padding: 6% 0 6% 0;
             border-bottom: solid 1px black;
         }
 
         h2 {
-            width: 585px;
-            height: 65px;
-            font-family: "Besley", serif;
+            font-family: 'Besley', serif;
             font-weight: 600;
-            font-size: 2.36em;
+            font-size: 1.8em;
             margin: 0;
-            padding-bottom: 48px;
+            padding-bottom: 5%;
         }
-    
+
         figure {
-            width: 415px;
-            height: 561px;
+            width: 327.69px;
+            height: 443.11px;
             margin: 0;
         }
 

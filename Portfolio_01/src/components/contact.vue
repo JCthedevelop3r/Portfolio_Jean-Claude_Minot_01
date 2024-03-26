@@ -17,64 +17,60 @@
 </template>
 
 <style scoped>
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         .section-parent {
-            width: 1680px;
-            height: 613px;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-bottom: 112px;
-            padding-top: 48px;
+            padding-top: 6%;
+            padding-bottom: 8%;
             border-bottom: solid 1px black;
         }
+
         h2 {
-            width: 153px;
-            height: 65px;
-            font-family: "Besley", serif;
-            font-weight: 600;
-            font-size: 2.36em;
             margin: 0;
-            padding-bottom: 80px;
+            font-family: 'Besley', serif;
+            font-weight: 600;
+            font-size: 1.8em;
+            padding-top: 0;
+            padding-bottom: 5%;
         }
 
-        .sections-enfant-1 {
+        .section-enfant-1 {
             display: flex;  
             flex-direction: row;
-            padding-bottom: 40px;
+            padding-bottom: 2.5%;
         }
 
-        .sections-enfant-2 {
+        .section-enfant-2 {
             display: flex;  
             flex-direction: row;
-            padding-bottom: 40px;
-            position: relative;
-            left: -66px;
         }
 
         h3 {
-            font-family: "Besley", serif;
-            font-size: 1.5em;
+            height: 10%;
+            margin: 0;
+            font-family: "Assistant", sans-serif;
+            font-size: 1.6em;
+            font-weight: 600;
+            padding: 0;
         }
 
         .e-mail {
-            position: relative;
-            top: 5px;
+            text-decoration: none;
         }
 
         .tel {
-            height: 32px;
-            position: relative;
-            top: 7px;
-            padding-bottom: 9px;
-
+            text-decoration: none;
         }
+
         p {
-            font-family: "Assistant", sans-serif;
-            font-size: 1.5em;
             margin: 0;
-            align-self: end;
-            padding-left: 20px;
+            padding-left: 2%;
+            font-family: "Assistant", sans-serif;
+            font-size: 1.6em;
+            color: black;
         }
     }
 
@@ -84,7 +80,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 10%;
+            padding-top: 6%;
             padding-bottom: 10%;
             border-bottom: solid 1px black;
         }
