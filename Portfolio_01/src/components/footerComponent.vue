@@ -52,13 +52,14 @@
             align-items: center;
             padding-top: 2%;
             padding-bottom: 1%;
+            position: fixed;
+            bottom: 0;
         }
 
         section {
             width: 33%;
             display: flex;
             justify-content: space-between;
-            
         }
 
         img {
