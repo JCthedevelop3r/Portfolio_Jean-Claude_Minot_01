@@ -46,7 +46,7 @@
 </template>
 
 <style scoped>
-    @media screen and (min-width: 1200px) {
+    /*@media screen and (min-width: 1200px) {
         section {
             display: flex;
             flex-direction: column;
@@ -209,9 +209,162 @@
             justify-content: center;
             border-bottom: solid 1px black;
         }
-    }
+    }*/
+    @media screen and (max-width: 1023px) {
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10% 0 10%;
+        }
 
-    @media screen and (max-width: 480px) {
+        h2 {
+            font-family: "Besley", serif;
+            font-weight: bolder;
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0 10% 0 10%;
+            padding-bottom: 7%;
+        }
+
+        h3 {
+            font-family: "Besley", serif;
+            font-weight: 600;
+            font-size: 1.2em;
+            margin: 0;
+            padding-bottom: 5%;
+        }
+
+        h4 {
+            font-family: "Assistant", serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            padding-bottom: 5%;
+            margin: 0;
+        }
+
+        .wireframes-desktop-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .wireframes-desktop-figure-1 {
+            width: 100%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-desktop-figure-2 {
+            width: 100%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-desktop-figure-3 {
+            width: 100%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-desktop-figure-4 {
+            width: 100%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-desktop-figure-5 {
+            width: 100%;
+            padding-bottom: 12%;
+            margin: 0;
+        }
+
+        .wireframes-mobile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .wireframes-mobile-figure-1 {
+            width: 50%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-mobile-figure-2 {
+            width: 50%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+    
+        .wireframes-mobile-figure-3 {
+            width: 50%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-mobile-figure-4 {
+            width: 50%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-mobile-figure-5 {
+            width: 50%;
+            padding-bottom: 10%;
+            margin: 0;
+        }
+
+        .wireframes-mobile-figure-6 {
+            width: 50%;
+            padding-bottom: 12%;
+            margin: 0;
+        }
+
+        .prototype-desktop {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .prototype-desktop-figure {
+            width: 100%;
+            margin: 0;
+            padding-bottom: 12%;
+        }
+
+        .prototype-mobile {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .prototype-mobile-figure {
+            width: 50%;
+            margin: 0;
+        }
+
+        .h3-wm {
+            padding-top: 9%;
+        }
+
+        .h3-pd {
+            padding-top: 9%;
+        }
+
+        .h3-pm {
+            padding-top: 9%;
+        }
+
+        .border {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            border-bottom: solid 1px black;
+        }
+
+    }
+    @media screen and (max-width: 767px) {
         section {
             display: flex;
             flex-direction: column;
