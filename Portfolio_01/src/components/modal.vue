@@ -23,8 +23,8 @@
                 <slot name="button"></slot>
                 <h2>{{ titre }}</h2>
                 <ul>
-                     <li><h3>{{ sousTitre1 }}</h3>{{ objectifs }}</li>
-                     <li><h3>{{ sousTitre2 }}</h3> <time :datetime="dateTime">{{ date }}</time>.</li>
+                     <li class="li-top"><h3>{{ sousTitre1 }}</h3>{{ objectifs }}</li>
+                     <li class="li-top"><h3>{{ sousTitre2 }}</h3> <time :datetime="dateTime">{{ date }}</time>.</li>
                      <li><h3>{{ sousTitre3 }}</h3>{{ technologies }}</li>
                      <li><h3>{{ sousTitre4 }}</h3> <a :href="lienProjet">{{ voirProjet }}</a></li>
                 </ul>
@@ -100,7 +100,7 @@
         }
     }
 
-    @media screen and (min-width: 320px) {
+    @media screen and (max-width: 767px) {
         .modal-container {
             width: 100vw;
             height: 100vh;
@@ -165,6 +165,95 @@
 
         li {
             width: 85%;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:active{
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (max-width: 1023px) {
+        .modal-container {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        } 
+
+        .modal {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 80%;
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            bottom: 5%;
+            left: 5%;
+            background: #FFBD80;
+            border-style: double;
+            color: black;
+            padding: 5%;
+            overflow-y: scroll;
+        }
+
+        button {
+            width: 30px;
+            height: 30px;
+            position: fixed;
+            left: 90%;
+            top: 8%;
+            background-color: #4B4B4B;
+            border: none;
+            border-radius: 50%;
+            color: #FFBD80;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        h2 {
+            font-family: 'Besley', 'serif';
+            font-weight: 600;
+            font-size: 1.1em;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-family: 'Assistant', 'sans-serif';
+            font-weight: 400;
+            list-style-type: none;
+            margin: 0;
+            padding: 8% 0 0 0;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 1em;
+            margin: 0;
+            padding-top: 0;
+            padding-bottom: 3%;
+        }
+
+        li {
+            width: 40%;
+        }
+
+        .li-top {
+            padding-bottom: 8%;
         }
 
         a {

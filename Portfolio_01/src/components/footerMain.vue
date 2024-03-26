@@ -40,7 +40,40 @@
         }
     }
 
-    @media screen and (min-width: 320px) {
+    @media screen and (max-width: 1023px) {
+        footer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2%;
+            padding-bottom: 1%;
+        }
+
+        section {
+            width: 33%;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        img {
+            width: 36px;
+        }
+
+        a:active {
+            opacity: 0.5;
+        }
+
+        p {
+            font-family: "Assistant", sans-serif;
+            font-weight: 300;
+            font-size: 1.1em;
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
         footer {
             width: 100%;
             display: flex;

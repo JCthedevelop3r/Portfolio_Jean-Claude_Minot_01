@@ -76,7 +76,40 @@
         }
     }
 
-    @media screen and (min-width: 320px) {
+    @media screen and (max-width: 1023px) {
+        section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 10%;
+            padding-bottom: 10%;
+            border-bottom: solid 1px black;
+        }
+
+        h2 {
+            margin: 0;
+            font-family: 'Besley', serif;
+            font-weight: 600;
+            font-size: 1.5em;
+            padding-top: 0;
+            padding-bottom: 5%;
+        }
+
+        img {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: #333333d3;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
         section {
             width: 100%;
             display: flex;

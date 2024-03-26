@@ -10,7 +10,7 @@
 </template>
 
 <style scoped>
-    @media screen and (min-width: 1200px) {
+    /*@media screen and (min-width: 1200px) {
         section {
             width: 1680px;
             display: flex;
@@ -33,14 +33,35 @@
             width: 318px;
             height: 450px;
         }
-    }
+    }*/
 
-    @media screen and (min-width: 320px) {
+    @media screen and (max-width: 1023px) {
         section {
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-bottom: 40px;
+            padding-bottom: 14%;
+            border-bottom: solid 1px black;
+        }
+
+        p {
+            width: 94%;
+            font-family: "Besley", serif;
+            font-weight: 600;
+            font-size: 2em;
+            text-align: center;
+            margin: 0;
+            padding-top: 14%;
+            padding-bottom: 14%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 14%;
             border-bottom: solid 1px black;
         }
 
@@ -51,8 +72,8 @@
             font-size: 1em;
             text-align: center;
             margin: 0;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding-top: 14%;
+            padding-bottom: 14%;
         } 
 
         img {
