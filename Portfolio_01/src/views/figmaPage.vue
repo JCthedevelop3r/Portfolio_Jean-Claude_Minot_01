@@ -46,31 +46,33 @@
 </template>
 
 <style scoped>
-    /*@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         section {
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin: 0 10% 0 10%;
         }
 
         h2 {
             font-family: "Besley", serif;
             font-weight: bolder;
-            font-size: 3em;
+            font-size: 1.8em;
             text-align: center;
             margin: 0;
-            padding-bottom: 100px;
+            padding-top: 15%;
+            padding-bottom: 5%;
         }
         h3 {
             font-family: "Besley", serif;
             font-weight: 600;
-            font-size: 2.36em;
+            font-size: 1.5em;
             margin: 0;
-            padding-bottom: 40px;
+            padding-bottom: 2%;
         }
 
         .h3-wm {
-            padding-top: 55px;    
+            padding-top: 6%;    
         }
 
         .h3-pd {
@@ -83,9 +85,9 @@
 
         h4 {
             font-family: "Assistant", serif;
-            font-size: 1.5em;
+            font-size: 1.4em;
             font-weight: 400;
-            padding-bottom: 20px;
+            padding-bottom: 2%;
             margin: 0;
         }
 
@@ -96,37 +98,32 @@
         }
 
         .wireframes-desktop-figure-1 {
-            width: 450px;
-            height: 616px;
-            padding-bottom: 20px;
+            width: 35%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-2 {
-            width: 450px;
-            height: 657px;
-            padding-bottom: 20px;
+            width: 35%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-3 {
-            width: 450px;
-            height: 426px;
-            padding-bottom: 20px;
+            width: 35%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-4 {
-            width: 450px;
-            height: 509px;
-            padding-bottom: 20px;
+            width: 35%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-5 {
-            width: 450px;
-            height: 729px;
-            padding-bottom: 80px;
+            width: 35%;
+            padding-bottom: 8%;
             margin: 0;
         }
 
@@ -137,44 +134,38 @@
         }
 
         .wireframes-mobile-figure-1 {
-            width: 225px;
-            height: 1688px;
-            padding-bottom: 20px;
+            width: 20%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-2 {
-            width: 225px;
-            height: 1190px;
-        padding-bottom: 20px;
+            width: 20%;
+            padding-bottom: 2%;
             margin: 0;
         }
     
         .wireframes-mobile-figure-3 {
-            width: 225px;
-            height: 936px;
-            padding-bottom: 20px;
+            width: 20%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-4 {
-            width: 225px;
-            height: 932px;
-            padding-bottom: 20px;
+            width: 20%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-5 {
-            width: 225px;
-            height: 1405px;
-            padding-bottom: 20px;
+            width: 20%;
+            padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-6 {
-            width: 225px;
-            height: 489px;
-            padding-bottom: 80px;
+            width: 20%;
+            padding-bottom: 8%;
             margin: 0;
         }
 
@@ -185,10 +176,9 @@
         }
 
         .prototype-desktop-figure {
-            width: 450px;
-            height: 593px;
+            width: 35%;
             margin: 0;
-            padding-bottom: 80px;
+            padding-bottom: 8%;
         }
 
         .prototype-mobile {
@@ -198,18 +188,17 @@
         }
 
         .prototype-mobile-figure {
-            width: 225px;
-            height: 1590px;
+            width: 20%;
             margin: 0;
         }
 
         .border {
-            width: 450px;
+            width: 100%;
             display: flex;
             justify-content: center;
             border-bottom: solid 1px black;
         }
-    }*/
+    }
     @media screen and (max-width: 1023px) {
         section {
             display: flex;

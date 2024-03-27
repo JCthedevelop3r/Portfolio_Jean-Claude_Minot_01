@@ -24,34 +24,34 @@
 </template>
 
 <style scoped>
-    /*@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         header {
-            width: 1690px;
+            width: 96%;
             display: flex;
-            justify-content: space-between;
-            padding: 34px 0 34px 0;
+            padding: 2% 2% 2% 2%;
             position: fixed;
-            left: 112px;
             background: #FFBD80;
         }
 
-        .r-l-title {
-            text-decoration: none;
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
         }
-    
+
         h1 {
-            width: 218px;
-            height: 30px;
-            padding: 5px 2px 5px 2px;
+            padding: 0;
             font-family: "Assistant", sans-serif;
             font-weight: 400;
-            font-size: 1.62em;
-            color: black;
+            font-size: 1.6em;
+        }
+
+        .anchor-title:hover {
+            text-decoration: none
         }
 
         ul {
-            width: 669px;
-            height: 31px;
+            width: 60%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -62,15 +62,20 @@
             padding-left: 0;
         }
 
-        .elements-barnav {
-            color: black;
+        a {
             text-decoration: none;
+            color: black;
         }
 
-        .elements-barnav:hover {
+        .underline {
             text-decoration: underline;
+            text-decoration-thickness: 2px;
         }
-    }*/
+
+        #icons {
+            display: none;
+        }
+    }
 
     @media screen and (max-width: 1023px) {
         header {
