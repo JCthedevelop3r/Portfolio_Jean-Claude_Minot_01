@@ -27,12 +27,13 @@
         }
 
         img {
-            width: 36px;
+            width: 92%;
         }
 
         p {
             font-family: "Assistant", sans-serif;
             font-weight: 300;
+            font-size: calc(1em + 0.2vw);
             margin: 0;
         }
 

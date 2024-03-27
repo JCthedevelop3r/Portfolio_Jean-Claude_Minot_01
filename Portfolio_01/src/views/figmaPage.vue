@@ -57,7 +57,7 @@
         h2 {
             font-family: "Besley", serif;
             font-weight: bolder;
-            font-size: 1.8em;
+            font-size: calc(1.5em + 1vw);
             text-align: center;
             margin: 0;
             padding-top: 15%;
@@ -98,31 +98,31 @@
         }
 
         .wireframes-desktop-figure-1 {
-            width: 35%;
+            width: 30%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-2 {
-            width: 35%;
+            width: 30%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-3 {
-            width: 35%;
+            width: 30%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-4 {
-            width: 35%;
+            width: 30%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-desktop-figure-5 {
-            width: 35%;
+            width: 30%;
             padding-bottom: 8%;
             margin: 0;
         }
@@ -134,37 +134,37 @@
         }
 
         .wireframes-mobile-figure-1 {
-            width: 20%;
+            width: 15%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-2 {
-            width: 20%;
+            width: 15%;
             padding-bottom: 2%;
             margin: 0;
         }
     
         .wireframes-mobile-figure-3 {
-            width: 20%;
+            width: 15%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-4 {
-            width: 20%;
+            width: 15%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-5 {
-            width: 20%;
+            width: 15%;
             padding-bottom: 2%;
             margin: 0;
         }
 
         .wireframes-mobile-figure-6 {
-            width: 20%;
+            width: 15%;
             padding-bottom: 8%;
             margin: 0;
         }
@@ -176,7 +176,7 @@
         }
 
         .prototype-desktop-figure {
-            width: 35%;
+            width: 30%;
             margin: 0;
             padding-bottom: 8%;
         }
@@ -188,7 +188,7 @@
         }
 
         .prototype-mobile-figure {
-            width: 20%;
+            width: 15%;
             margin: 0;
         }
 

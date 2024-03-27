@@ -51,20 +51,18 @@
         h2 {
             font-family: 'Besley', serif;
             font-weight: 600;
-            font-size: 1.8em;
+            font-size: calc(1.2em + 1vw);
             margin: 0;
             padding-bottom: 5%;
         }
 
         figure {
-            width: 327.69px;
-            height: 443.11px;
+            width: 35%;
             margin: 0;
         }
 
         img {
             width: 100%;
-            height: 100%;
             object-fit: cover;
         }
 

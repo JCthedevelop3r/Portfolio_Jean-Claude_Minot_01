@@ -32,7 +32,7 @@
             margin: 0;
             font-family: 'Besley', serif;
             font-weight: 600;
-            font-size: 1.8em;
+            font-size: calc(1.2em + 1vw);
             padding-top: 0;
             padding-bottom: 5%;
         }
@@ -52,7 +52,7 @@
             height: 10%;
             margin: 0;
             font-family: "Assistant", sans-serif;
-            font-size: 1.6em;
+            font-size: calc(1em + 0.8vw);
             font-weight: 600;
             padding: 0;
         }
@@ -69,7 +69,7 @@
             margin: 0;
             padding-left: 2%;
             font-family: "Assistant", sans-serif;
-            font-size: 1.6em;
+            font-size: calc(1em + 0.8vw);
             color: black;
         }
     }

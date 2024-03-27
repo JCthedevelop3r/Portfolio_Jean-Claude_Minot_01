@@ -24,7 +24,7 @@
             width: 60%;
             font-family: "Besley", serif;
             font-weight: 600;
-            font-size: 1.5em;
+            font-size: calc(0.8em + 1.4vw);
             text-align: center;
             margin: 0;
         }

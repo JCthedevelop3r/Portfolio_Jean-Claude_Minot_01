@@ -51,13 +51,13 @@
         h2 {
             font-family: 'Besley', serif;
             font-weight: 600;
-            font-size: 1.8em;
+            font-size: calc(1.2em + 1vw);
             margin: 0;
             padding-bottom: 5%;
         }
 
         img {
-            width: 40%;
+            width: 35%;
         }
 
         img:hover {

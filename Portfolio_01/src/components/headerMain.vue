@@ -33,7 +33,7 @@
         header {
             width: 96%;
             display: flex;
-            padding: 2% 2% 2% 2%;
+            padding: 0% 2% 0% 2%;
             position: fixed;
             background: #FFBD80;
         }
@@ -46,9 +46,14 @@
 
         h1 {
             padding: 0;
+            margin: 0;
             font-family: "Assistant", sans-serif;
             font-weight: 400;
-            font-size: 1.6em;
+            font-size: calc(1em + 1.1vw);
+        }
+
+        .anchor-title {
+            align-self: center;
         }
 
         .anchor-title:hover {
@@ -63,7 +68,7 @@
             list-style-type: none;
             font-family: "Assistant", sans-serif;
             font-weight: 300;
-            font-size: 1.4em;
+            font-size: calc(0.8em + 0.7vw);
             padding-left: 0;
         }
 
