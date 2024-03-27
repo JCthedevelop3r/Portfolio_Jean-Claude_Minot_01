@@ -30,6 +30,7 @@
             display: flex;
             padding: 2% 2% 2% 2%;
             position: fixed;
+            top: 0;
             background: #FFBD80;
         }
 

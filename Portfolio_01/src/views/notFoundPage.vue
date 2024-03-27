@@ -14,26 +14,30 @@
 </template>
 
 <style scoped>
-    /*@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
+        section {
+            display: flex;
+            flex-direction: column;
+            margin: 0 10% 0 10%; 
+        }
         h2 {
             font-family: "Besley", serif;
             font-weight: 600;
-            font-size: 2.36em;
-            padding-top: 167px;
+            font-size: 1.8em;
+            padding-top: 14%;
+            margin: 0;
         }
 
         p {
             font-family: "Assistant", sans-serif;
             font-weight: 400;
-            font-size: 1.4em;
+            font-size: 1.2em;
         }
 
         figure{
-            width: 400px;
-            height: 400px;
-            position: relative;
-            left: 598px;
-            padding-bottom: 65px;
+            width: 40%;
+            margin: 0;
+            align-self: center;
         }
         
         img {
@@ -41,7 +45,7 @@
             height: 100%;
             object-fit: cover;
         }
-    }*/
+    }
 
     @media screen and (max-width: 1023px) {
         section {

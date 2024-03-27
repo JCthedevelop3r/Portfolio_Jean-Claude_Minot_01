@@ -15,18 +15,25 @@
 </template>
 
 <style scoped>
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         footer {
+            width: 96%;
             display: flex;
             justify-content: space-between;
-            margin-top: 80px;
-            padding-bottom: 10px;
+            margin-top: 5%;
+            padding: 0 2% 0.5% 2%;
+            position: fixed;
+            bottom: 0;
         }
 
         section {
-            width: 184px;
+            width: 12%;
             display: flex;
             justify-content: space-between;
+        }
+
+        img {
+            width: 36px;
         }
 
         p {
